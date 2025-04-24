@@ -1,4 +1,11 @@
-# Node + Python Scraper (Agoda Example)
+**📌 Node + Python Web Scraper (Agoda Example)**
+This project scrapes a target webpage and serves extracted data via a Flask web server, all containerized using Docker.
+
+🔧 **Tech Stack**
+
+Node.js + Puppeteer (Scraper)
+Python + Flask (Web server)
+Docker (Containerization)
 
 ## 🐳 Build the Docker Image
 
@@ -14,6 +21,8 @@ docker run -e SCRAPE_URL="https://www.agoda.com" -p 5000:5000 node-python-scrape
 
 ## 🌐 Access the Result
 
-Visit: http://<your-ec2-public-ip>:5000
+Visit http://localhost:5000 (or your EC2 public IP if deployed).
 
 You’ll see the scraped page title and heading from Agoda.com as JSON.
+
+🧪 Output
