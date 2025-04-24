@@ -1,0 +1,9 @@
+{
+  "name": "node-scraper",
+  "version": "1.0.0",
+  "description": "Scrape a page using Puppeteer",
+  "main": "scrape.js",
+  "dependencies": {
+    "puppeteer-core": "^21.11.0"
+  }
+}
